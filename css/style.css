@@ -129,12 +129,12 @@ body {
 .projects-page {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 60px 28px 80px;
+    padding: 10px 28px 60px;
 }
 
 .projects-intro {
     max-width: 760px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 .section-tag {
@@ -391,7 +391,7 @@ header {
 
 .contact-intro {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .contact-intro h2 {
@@ -456,4 +456,67 @@ header {
 .hero-main p {
     font-size: 1.2rem;
     color: #666;
+}
+
+.hero-main {
+    animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-text span {
+    display: inline-block;
+    transition: all 0.3s ease;
+    animation: highlight 3s infinite;
+}
+
+/* delays */
+.animated-text span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.animated-text span:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.animated-text span:nth-child(3) {
+    animation-delay: 2s;
+}
+
+/* animação melhorada */
+@keyframes highlight {
+    0% {
+        color: #e0e0e0;
+        transform: scale(1);
+        font-weight: 400;
+    }
+
+    20% {
+        color: #ffd700;
+        transform: scale(1.15);
+        font-weight: 700;
+        text-shadow: 0 0 8px rgba(255,215,0,0.5);
+    }
+
+    40% {
+        color: #e0e0e0;
+        transform: scale(1);
+        font-weight: 400;
+        text-shadow: none;
+    }
+
+    100% {
+        color: #e0e0e0;
+        transform: scale(1);
+        font-weight: 400;
+    }
 }
