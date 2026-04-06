@@ -69,3 +69,367 @@ main {
     background: #888;
     border-radius: 10px;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.6;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px 40px;
+    background: linear-gradient(180deg, #f5f7fb 0%, #eef2f7 100%);
+}
+
+.hero h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #6e6e73;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    padding: 18px 20px;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #e5e5e7;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #3a3a3c;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #0071e3;
+}
+
+.projects-page {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 60px 28px 80px;
+}
+
+.projects-intro {
+    max-width: 760px;
+    margin-bottom: 32px;
+}
+
+.section-tag {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #e9f2ff;
+    color: #0071e3;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.projects-intro h2 {
+    font-size: 2.4rem;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    margin-bottom: 14px;
+}
+
+.projects-intro p {
+    font-size: 1.08rem;
+    color: #6e6e73;
+    max-width: 680px;
+}
+
+.projects-scroll {
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+    padding: 10px 4px 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.projects-scroll::-webkit-scrollbar {
+    height: 10px;
+}
+
+.projects-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.projects-scroll::-webkit-scrollbar-thumb {
+    background: #d2d2d7;
+    border-radius: 999px;
+}
+
+.project-card {
+    scroll-snap-align: start;
+    min-width: 360px;
+    max-width: 360px;
+    min-height: 340px;
+    padding: 28px;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #ffffff 0%, #fbfbfd 100%);
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.06),
+        0 2px 8px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow:
+        0 18px 40px rgba(0, 0, 0, 0.10),
+        0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-top {
+    margin-bottom: 18px;
+}
+
+.card-label {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #0071e3;
+    background: #eef5ff;
+    padding: 6px 10px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #4a4a4f;
+    margin-bottom: 24px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.tech-stack span {
+    background: #f2f2f5;
+    color: #3a3a3c;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .projects-intro h2 {
+        font-size: 1.8rem;
+    }
+
+    .project-card {
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 320px;
+    }
+
+    .navbar {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: #4B2E83; /* mesma cor da página Sobre Mim */
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.hero p {
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+.navbar {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+header {
+    background: #4B2E83;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.navbar {
+    background: #333;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 18px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+    color: #ddd;
+}
+
+.site-header {
+    background: #4B2E83;
+    color: white;
+    text-align: center;
+    padding: 35px 20px 25px;
+}
+
+.site-header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.site-header p {
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.cv-section {
+    margin-bottom: 40px;
+}
+
+.cv-section h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #4B2E83;
+    padding-bottom: 5px;
+}
+
+.job {
+    margin-bottom: 25px;
+}
+
+.job h3 {
+    margin-bottom: 5px;
+}
+
+.job span {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.job ul {
+    margin-top: 8px;
+    padding-left: 18px;
+}
+
+.cv-list {
+    padding-left: 18px;
+}
+
+.contact-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-intro h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact-intro p {
+    color: #555;
+}
+
+.contact-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-card h3 {
+    margin-bottom: 10px;
+}
+
+.contact-card a {
+    text-decoration: none;
+    color: #4B2E83;
+    font-weight: 500;
+}

@@ -8,67 +8,118 @@
 </head>
 <body>
 
-<header>
-    <h1>Jorge Jardim</h1>
-    <p>Estratégia • Tecnologia • Inteligência Artificial</p>
-</header>
+    <header class="site-header">
+         <h1>Jorge Jardim</h1>
+         <p>Estratégia • Tecnologia • Inteligência Artificial</p>
+    </header>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">Sobre Mim</a>
-    <a href="projects.html">Projetos</a>
-    <a href="cv.html">CV</a>
-    <a href="contact.html">Contato</a>
-</nav>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">Sobre Mim</a>
+        <a href="projects.html" class="active">Projetos</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contato</a>
+    </nav>
 
-<main>
-    <section>
-        <h2>Projetos</h2>
-        <p>
-            Nesta seção, apresento projetos que demonstram minha atuação prática em tecnologia,
-            ciência de dados e Inteligência Artificial.
-        </p>
+    <main class="projects-page">
+        <section class="projects-intro">
+            <span class="section-tag">Portfólio</span>
+            <h2>Projetos de tecnologia e IA</h2>
+            <p>
+                Nesta seção, apresento projetos que demonstram minha atuação prática em
+                ciência de dados, processamento de linguagem natural, automação e computação em nuvem.
+            </p>
+        </section>
 
-        <div class="projects-container">
+        <section class="projects-scroll">
 
-            <div class="card">
-                <h3>Análise de Sentimento com NLP</h3>
-                <p><strong>Objetivo:</strong> Classificar automaticamente textos com base no sentimento.</p>
-                <p><strong>Descrição:</strong> Modelo com NLP e machine learning para análise de grandes volumes de dados textuais.</p>
-                <p><strong>Tecnologias:</strong> Python, NLP, Machine Learning</p>
-            </div>
+            <article class="project-card">
+                <div class="card-top">
+                    <span class="card-label">NLP</span>
+                    <h3>Análise de Sentimento</h3>
+                </div>
+                <p class="card-description">
+                    Desenvolvimento de modelo com processamento de linguagem natural e machine learning
+                    para interpretar grandes volumes de texto e transformá-los em insights analíticos.
+                </p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>NLP</span>
+                    <span>Machine Learning</span>
+                    <span>scikit-learn</span>
+                </div>
+            </article>
 
-            <div class="card">
-                <h3>transcrever_offline</h3>
-                <p><strong>Objetivo:</strong> Transcrição automática de vídeos.</p>
-                <p><strong>Descrição:</strong> IA para transformar áudio em texto estruturado com geração de legendas SRT.</p>
-                <p><strong>Tecnologias:</strong> Python, Whisper, MoviePy</p>
-            </div>
+            <article class="project-card">
+                <div class="card-top">
+                    <span class="card-label">IA Aplicada</span>
+                    <h3>transcrever_offline</h3>
+                </div>
+                <p class="card-description">
+                    Solução de transcrição automática de vídeos com IA, capaz de converter áudio em
+                    texto estruturado e gerar legendas em formato SRT.
+                </p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Whisper</span>
+                    <span>MoviePy</span>
+                    <span>SRT</span>
+                </div>
+            </article>
 
-            <div class="card">
-                <h3>YouTubeLanguageDetector</h3>
-                <p><strong>Objetivo:</strong> Identificar automaticamente o idioma.</p>
-                <p><strong>Descrição:</strong> Pipeline de NLP para classificação de idiomas em escala.</p>
-                <p><strong>Tecnologias:</strong> Python, NLP</p>
-            </div>
+            <article class="project-card">
+                <div class="card-top">
+                    <span class="card-label">Classificação</span>
+                    <h3>YouTubeLanguageDetector</h3>
+                </div>
+                <p class="card-description">
+                    Pipeline de classificação automática de idiomas aplicado a conteúdos digitais,
+                    utilizando NLP para identificar padrões linguísticos em escala.
+                </p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>NLP</span>
+                    <span>Classificação</span>
+                    <span>Texto</span>
+                </div>
+            </article>
 
-            <div class="card">
-                <h3>Projetos em AWS</h3>
-                <p><strong>Objetivo:</strong> Aplicação de cloud computing.</p>
-                <p><strong>Descrição:</strong> Estruturação de aplicações modernas com foco em escalabilidade.</p>
-                <p><strong>Tecnologias:</strong> AWS</p>
-            </div>
+            <article class="project-card">
+                <div class="card-top">
+                    <span class="card-label">Cloud</span>
+                    <h3>Projetos em AWS</h3>
+                </div>
+                <p class="card-description">
+                    Aplicação de conceitos de cloud computing para deploy, organização de aplicações
+                    e suporte à escalabilidade de soluções modernas.
+                </p>
+                <div class="tech-stack">
+                    <span>AWS</span>
+                    <span>Cloud</span>
+                    <span>Deploy</span>
+                    <span>Arquitetura</span>
+                </div>
+            </article>
 
-            <div class="card">
-                <h3>Sistema de Pedidos</h3>
-                <p><strong>Objetivo:</strong> Arquitetura escalável.</p>
-                <p><strong>Descrição:</strong> Sistema baseado em APIs e microserviços.</p>
-                <p><strong>Tecnologias:</strong> C#, .NET</p>
-            </div>
+            <article class="project-card">
+                <div class="card-top">
+                    <span class="card-label">Arquitetura</span>
+                    <h3>Sistema de Pedidos</h3>
+                </div>
+                <p class="card-description">
+                    Desenvolvimento de sistema com APIs e arquitetura de microserviços, com foco em
+                    modularidade, organização dos componentes e escalabilidade.
+                </p>
+                <div class="tech-stack">
+                    <span>C#</span>
+                    <span>.NET</span>
+                    <span>APIs REST</span>
+                    <span>Microserviços</span>
+                </div>
+            </article>
 
-        </div>
-    </section>
-</main>
+        </section>
+    </main>
 
 </body>
 </html>
