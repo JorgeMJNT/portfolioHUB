@@ -1,54 +1,64 @@
-###### 🌐 PortfolioHUB – Jorge Jardim
+##### PortfolioHUB – Jorge Jardim
+
+
+
+Portfólio digital desenvolvido para apresentar minha trajetória profissional, projetos técnicos e competências na interseção entre \*\*estratégia, tecnologia, inteligência e Inteligência Artificial\*\*.
 
 ###### 
 
-###### Portfólio digital desenvolvido para apresentar minha trajetória profissional, projetos técnicos e competências na interseção entre \*\*estratégia, tecnologia, inteligência e Inteligência Artificial\*\*.
+###### \## Objetivo
 
-###### 
 
-###### \---
 
-###### 
+Este projeto foi desenvolvido com o objetivo de consolidar, em um único ambiente digital, minha experiência profissional, formação acadêmica e projetos aplicados em tecnologia e IA, com foco em:
 
-###### \## 🎯 Objetivo
 
-###### 
 
-###### Este projeto foi desenvolvido com o objetivo de consolidar, em um único ambiente digital, minha experiência profissional, formação acadêmica e projetos aplicados em tecnologia e IA, com foco em:
+\- Posicionamento profissional
 
-###### 
+\- Apresentação de projetos técnicos
 
-###### \- Posicionamento profissional
+\- Demonstração de competências estratégicas e analíticas
 
-###### \- Apresentação de projetos técnicos
+\- Integração entre negócios, tecnologia e inteligência
 
-###### \- Demonstração de competências estratégicas e analíticas
 
-###### \- Integração entre negócios, tecnologia e inteligência
 
-###### 
 
-###### \---
 
-###### 
+###### \## Sobre o Profissional
 
-###### \## 🧠 Sobre o Profissional
 
-###### 
 
-###### Executivo com carreira internacional nos Estados Unidos e América Latina, com experiência em:
+Executivo com carreira internacional nos Estados Unidos e América Latina, com experiência em:
 
-###### 
 
-###### \- Planejamento estratégico  
 
-###### \- Desenvolvimento de negócios  
+\- Planejamento estratégico
 
-###### \- Gestão de projetos (PMP)  
+\- Desenvolvimento de negócios
 
-###### \- Business Intelligence  
+\- Gestão de projetos (PMP)
 
-###### \- Inteligência estratégica (OSINT, GEOINT, análise de cenários)  
+\- Business Intelligence
+
+\- Inteligência estratégica (OSINT, GEOINT, análise de cenários)
+
+
+
+###### \## Tecnologias Utilizadas
+
+
+
+\- HTML5  
+
+\- CSS3  
+
+\- Git / GitHub  
+
+\- GitHub Pages  
+
+
 
 ###### 
 
