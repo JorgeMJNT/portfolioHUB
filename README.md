@@ -46,17 +46,31 @@ Executivo com carreira internacional nos Estados Unidos e América Latina, com e
 
 
 
+###### \## Website com CV e Apresentação
+
+https://jorgemjnt.github.io/portfolioHUB/
+
+
+
+###### \## Portfólio Vídeo
+
+https://youtu.be/eHxVqJuqEvc
+
+
+
 ###### \## Tecnologias Utilizadas
 
 
 
-\- HTML5  
+\- HTML5
 
-\- CSS3  
+\- CSS3
 
-\- Git / GitHub  
+\- Git / GitHub
 
-\- GitHub Pages  
+\- GitHub Pages
+
+
 
 
 
